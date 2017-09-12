@@ -1,0 +1,31 @@
+*{
+	background-color: yellow;
+}
+li{
+	display: inline-block;
+	color: red;
+	margin: 20px;
+}
+
+nav{
+	margin: 0 auto;
+}
+
+a{
+	transition: 1s ease;
+	text-decoration-line: none;
+	color: red;
+}
+
+a:hover{
+	color: pink;
+}
+
+button, button a{
+	background-color: pink;
+	color: red;
+}
+
+div.buttons button:first-child {
+	border: none;
+}
